@@ -3,8 +3,8 @@
 #include <shlobj.h>
 #include <plugin.hpp>
 #endif
-#include "FARCmds.hpp"
-#include "Lang.hpp"
+#include "farcmds.hpp"
+#include "lang.hpp"
 #include "guid.hpp"
 
 
