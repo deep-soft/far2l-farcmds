@@ -1,5 +1,4 @@
 ﻿#include <cwchar>
-#include <shlobj.h>
 #include <plugin.hpp>
 #include <DlgBuilder.hpp>
 #include <PluginSettings.hpp>
