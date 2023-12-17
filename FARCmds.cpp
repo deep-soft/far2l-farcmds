@@ -1,15 +1,24 @@
-﻿#include <cwchar>
-#include <plugin.hpp>
-#include <DlgBuilder.hpp>
+#include <farplug-wide.h>
+#include <cwchar>
+#if 0
+#include <shlobj.h>
 #include <PluginSettings.hpp>
+#endif
 
-#include "FARCmds.hpp"
-#include "Lang.hpp"
+#include <fardlgbuilder.hpp>
+
+#include "farcmds.hpp"
+#include "lang.hpp"
 #include "version.hpp"
 
 #include "guid.hpp"
+#if 0
 #include <initguid.h>
 #include "guid.hpp"
+#endif
+
+#include <utils.h>
+#include <windows.h>
 
 static struct OptionsName OptName
 {
