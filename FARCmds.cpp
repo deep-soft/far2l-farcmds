@@ -1,11 +1,11 @@
-#include <farplug-wide.h>
+#include "../far2l/far2sdk/farplug-wide.h"
 #include <cwchar>
 #if 0
 #include <shlobj.h>
 #include <PluginSettings.hpp>
 #endif
 
-#include <fardlgbuilder.hpp>
+#include "../far2l/far2sdk/fardlgbuilder.hpp"
 
 #include "farcmds.hpp"
 #include "lang.hpp"
