@@ -1,6 +1,8 @@
 ﻿#include <cwchar>
+#if 0
+#include <shlobj.h>
 #include <plugin.hpp>
-
+#endif
 #include "FARCmds.hpp"
 #include "Lang.hpp"
 #include "guid.hpp"
