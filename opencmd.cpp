@@ -1,7 +1,7 @@
-﻿#include <plugin.hpp>
+#include "../far2l/far2sdk/farplug-wide.h"
 
-#include "FARCmds.hpp"
-#include "Lang.hpp"
+#include "farcmds.hpp"
+#include "lang.hpp"
 #include "guid.hpp"
 
 static wchar_t* getCurrDir(bool winApi)
